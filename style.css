@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.menu-alto {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 50px;
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+.menu-alto a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.menu-alto a:hover {
+    color: orange;
+}
+
+.hero {
+    background-color: gray;
+    color: white;
+    min-height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.hero h1 {
+    font-size: 42px;
+}
+
+.spazio {
+    background-color: #eeeeee;
+    padding: 40px 0;
+}
+
+.spazio-grigio {
+    background-color: #dddddd;
+    padding: 40px 0;
+}
+
+.titolo-sezione {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quadrato {
+    height: 100%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.quadrato img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.quadrato h3 {
+    font-size: 22px;
+}
+
+.blocco-form {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.blocco-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.blocco-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.pulsante-invia {
+    background-color: green;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.pulsante-invia:hover {
+    background-color: darkgreen;
+}
+
+.footer-sito {
+    background-color: #333333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-sito a {
+    display: inline-block;
+    color: yellow;
+    margin-right: 15px;
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .menu-alto a {
+        margin-right: 10px;
+        font-size: 13px;
+    }
+
+    .quadrato img {
+        height: 200px;
+    }
+}
